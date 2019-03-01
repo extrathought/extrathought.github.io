@@ -1,2 +1,1 @@
-# extrathought.github.io
-ExtraThought website
+# [Extra Thought Website](https://extrathought.com)
