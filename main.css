@@ -32,7 +32,7 @@
 
 html {
 	box-sizing: border-box;
-	font: 300 20px/1.25 sans-serif;
+	font: 500 16pt/1.25 sans-serif;
 	color: rgba(0, 0, 0, .9);
 	background-color: white;
 	padding: 3rem 1.5rem 4.5rem;}
@@ -58,7 +58,7 @@ h2 {
 	margin-bottom: 3rem;}
 h4 {
 	font-size: 1rem;
-	font-weight: 300;
+	font-weight: 500;
 	margin: 0;}
 h4 em {
 	font-weight: 900;
@@ -89,4 +89,4 @@ li {
 .people div {
 	font-size: 0.8rem;}
 .people div a {
-	font-weight: 300;}
+	font-weight: 500;}
