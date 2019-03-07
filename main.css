@@ -1,6 +1,34 @@
+/*FONTS */
 @font-face {
-	font-family: 'League Gothic';
-	src: url('https://github.com/theleagueof/league-gothic/raw/master/LeagueGothic-Regular.otf');}
+	font-family: 'League Gothic'; font-weight: normal; font-style: normal;
+	src: url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-regular-webfont.eot');
+	src: url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-regular-webfont.woff') format('woff'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');}
+@font-face {
+	font-family: 'League Gothic'; font-weight: normal; font-style: italic;
+	src: url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-italic-webfont.eot');
+	src: url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-italic-webfont.woff') format('woff'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-italic-webfont.ttf') format('truetype'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');}
+@font-face {
+	font-family: 'League Gothic Condensed'; font-weight: normal; font-style: normal;
+	src: url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-condensed-regular-webfont.eot');
+	src: url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-condensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-condensed-regular-webfont.woff') format('woff'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-condensed-regular-webfont.ttf') format('truetype'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg') format('svg');}
+@font-face {
+	font-family: 'League Gothic Condensed'; font-weight: normal; font-style: italic;
+	src: url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-condensed-italic-webfont.eot');
+	src: url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-condensed-italic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-condensed-italic-webfont.woff') format('woff'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-condensed-italic-webfont.ttf') format('truetype'),
+		 url('https://github.com/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg') format('svg');}
+
+/* STYLES */	
 
 html {
 	box-sizing: border-box;
@@ -10,8 +38,10 @@ html {
 	padding: 3rem 1.5rem 4.5rem;}
 	
 body {
-	max-width: 30rem;
-}
+	max-width: 30rem;}
+
+p {
+	margin-top: 3rem;}
 	
 h1 {
 	font-family: "League Gothic", sans-serif;
@@ -21,21 +51,42 @@ h1 {
 	font-weight: 900;
 	line-height: 0.8;
 	margin: 0 0 3rem;}
-	
 h2 {
 	font-family: serif;
 	font-weight: normal;
 	font-style: italic;
 	margin-bottom: 3rem;}
-	
+h4 {
+	font-size: 1rem;
+	font-weight: 300;
+	margin: 0;}
+h4 em {
+	font-weight: 900;
+	font-style: normal;}
+
 a {
 	color: #0d4371;
-	xtext-transform: uppercase;
 	font-weight: 700;
 	text-decoration: none;}
 a:hover {
 	color: black;}
-	
+
+ul {
+	list-style-type: none;
+	padding-left: 1rem;}	
 li {
-	margin-bottom: .75rem;
-}
+	margin-bottom: .75rem;}
+	
+
+/* SECTIONS */
+.people li {
+	display: flex;
+	align-items: center;}
+.people img {
+	height: 3rem;
+	border-radius: 1.5rem;
+	margin-right: .5rem;}
+.people div {
+	font-size: 0.8rem;}
+.people div a {
+	font-weight: 300;}
