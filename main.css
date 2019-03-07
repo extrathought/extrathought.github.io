@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'League Gothic';
+	src: url('https://github.com/theleagueof/league-gothic/raw/master/LeagueGothic-Regular.otf');}
+
+html {
+	box-sizing: border-box;
+	font: 300 12px/1.25 sans-serif;
+	color: rgba(0, 0, 0, .9);
+	background-color: white;
+	padding: 3rem 1.5rem 4.5rem;}
+	
+body {
+	max-width: 30rem;
+}
+	
+h1 {
+	font-family: "League Gothic", sans-serif;
+	color: #0d4371;
+	text-transform: uppercase;
+	font-size: 6rem;
+	font-weight: 900;
+	line-height: 0.8;
+	margin: 0 0 3rem;}
+	
+h2 {
+	font-family: serif;
+	font-weight: normal;
+	font-style: italic;
+	margin-bottom: 3rem;}
+	
+a {
+	color: #0d4371;
+	xtext-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;}
+a:hover {
+	color: black;}
+	
+li {
+	margin-bottom: .75rem;
+}
