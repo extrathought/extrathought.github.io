@@ -32,7 +32,9 @@
 
 html {
 	box-sizing: border-box;
-	font: 500 32px/1.25 sans-serif;
+	line-height: 1.25;
+	font-family: sans-serif;
+	xfont: 500 32px/1.25 sans-serif;
 	color: rgba(0, 0, 0, .9);
 	background-color: white;
 	padding: 3rem 1.5rem 4.5rem;}
